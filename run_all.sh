@@ -1,0 +1,9 @@
+wget https://hf-mirror.com/datasets/McAuley-Lab/Amazon-Reviews-2023/resolve/main/raw/meta_categories/meta_Grocery_and_Gourmet_Food.jsonl?download=true
+wget https://hf-mirror.com/datasets/McAuley-Lab/Amazon-Reviews-2023/resolve/main/raw/review_categories/Grocery_and_Gourmet_Food.jsonl?download=true
+python preprocess.py
+pyrhon preprocess2.py
+python plot.py
+python fpgrowth.py
+python prune.py
+python cluster.py
+python rank.py
